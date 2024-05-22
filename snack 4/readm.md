@@ -9,4 +9,4 @@ dichiarimo le variabili che ci occorrono
  if per controllare se la persona e maggiorenne 
 3 se lo è aggiungere la proprieta info = nome cognome può guidare 
 4 se non lo è aggiungere la proprieta info = nome cognome non può guidare 
-5 stampa a video l'arry nuovo 
+5 stampa a video l'arry nuovo   

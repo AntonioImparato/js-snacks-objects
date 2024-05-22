@@ -16,23 +16,28 @@ const persone = [
     { nome: 'Luigi', cognome: 'Cuomo', eta: 8, },
 
 ];
+const personaGuida = [];
 
 
 
 // for per scorrere l'arry 
 for (let i = 0; i < persone.length; i++) {
-    //if per controllare se la persona è maggiorenne 
-    if (persone[i].eta >= 18) {
 
-        persone[i].info = persone[i].nome + ' ' + persone[i].cognome + ' può guidare ';
+    personaGuida.push(persone[i]);
+    //if per controllare se la persona è maggiorenne 
+
+
+    if (personaGuida[i].eta >= 18) {
+        personaGuida[i].info = personaGuida[i].nome + ' ' + personaGuida[i].cognome + ' può guidare ';
 
     }
     // persona minorenne 
     else {
-        persone[i].info = persone[i].nome + ' ' + persone[i].cognome + ' non può guidare ';
+        personaGuida[i].info = personaGuida[i].nome + ' ' + personaGuida[i].cognome + ' non può guidare ';
     }
 }
 
 // stampa l'arry 
-console.log(persone);
+
+console.log(personaGuida);
 
